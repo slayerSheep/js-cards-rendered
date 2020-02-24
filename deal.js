@@ -58,7 +58,7 @@ class Deck{
 		value.innerHTML = deck[i].Value;
 		card.appendChild(value);
 		card.appendChild(suit);
-		document.getElementById("app").appendChild(card);
+		//document.getElementById("app").appendChild(card);
 	}
   
 }
